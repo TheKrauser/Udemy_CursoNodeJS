@@ -1,0 +1,2 @@
+npx cowsay "Vaca"
+npx cowsay -d "Vaca que foi de base"
