@@ -1,0 +1,21 @@
+//Criar o package.json (configuração inicial)
+npm init
+npm init -y (marca o padrão para todas as opções iniciais)
+
+//Rodar o programa no terminal do node
+node <nome_do_arquivo>
+
+//Instalar módulos pelo terminal do node
+npm install (instala todos os módulos marcados no package.json)
+npm install <nome_do_modulo> (pode ter mais de um argumento)
+npm install <nome_do_modulo>@1.0.0 (instalar uma versão específica)
+
+//Instalar módulos apenas na máquina do usuário
+npm install --sav-dev <nome_do_modulo>
+
+//Atualiza os módulos para a versão mais recente
+npm update
+
+//Desinstala um módulo
+npm uninstall <nome_do_modulo>
+
